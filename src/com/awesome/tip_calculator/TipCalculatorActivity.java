@@ -43,7 +43,7 @@ public class TipCalculatorActivity extends Activity {
 			txtTipAmount.setText("Tip is: $" + tip);
 
 		} catch (Exception e) {
-			Toast.makeText(this, "Amount Missing! " + "", Toast.LENGTH_SHORT)
+			Toast.makeText(this, "Please enter the pre-tip amount!" + "", Toast.LENGTH_SHORT)
 					.show();
 			e.printStackTrace();
 		}
